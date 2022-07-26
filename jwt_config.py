@@ -9,7 +9,7 @@ class JwtConfig:
         self.key_id = "DQ362YMNMP"
         self.team_id = "95VT929YHJ"
         self.service_id = "com.bytedance.ssr"
-        self.private_key = open("./static/AuthKey_DQ362YMNMP.p8").read()
+        self.private_key = open("./static/keys/AuthKey_DQ362YMNMP.p8").read()
         self.cur_time = int(time.time())
         self.expiry = (int(time.time()) + 3600)
         self.algorithm = "ES256"
