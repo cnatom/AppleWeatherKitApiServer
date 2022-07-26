@@ -21,7 +21,7 @@ class JwtConfig:
             self.expiry = (int(time.time()) + 1000)
             payload = self.__getPayload()
             private_key = self.private_key
-            algorithm = "ES256"
+            algorithm = self.algorithm
             headers = self.__getHeaders()
             self.token = jwt.encode(payload=payload, key=private_key, algorithm=algorithm, headers=headers)
         return self.token
