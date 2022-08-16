@@ -4,7 +4,7 @@
 ### 1.下载本项目
 
 ```
-git clone https://github.com/cnatom/ByteDanceCampusWeatherServer.git
+git clone https://github.com/cnatom/AppleWeatherKitApiServer.git
 ```
 
 ### 2.导入依赖包
